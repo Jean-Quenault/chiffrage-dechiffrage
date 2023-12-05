@@ -1,4 +1,4 @@
-# Projet de Chiffrement Python
+# Projet de chiffrement python
 
 Ce projet comprend trois scripts Python pour démontrer différents types de chiffrement : asymétrique avec RSA, symétrique avec AES et un exemple simple de chiffrement symétrique.
 
