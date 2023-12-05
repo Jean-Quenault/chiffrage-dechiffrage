@@ -14,8 +14,8 @@ Ce projet comprend trois scripts Python pour démontrer différents types de chi
 
 Pour utiliser le script de chiffrement asymétrique :
 
-`python'
-python chiffrageAsymetrique.py
+python
+`python chiffrageAsymetrique.py`
 
 #### Cela générera une paire de clés RSA, chiffrera un message saisi par l'utilisateur et le déchiffrera ensuite.
 
@@ -23,8 +23,8 @@ python chiffrageAsymetrique.py
 
 Pour le script utilisant AES : 
 
-`python'
-python chiffrageSymetriqueAES.py
+python
+`python chiffrageSymetriqueAES.py`
 
 Ce script permet de saisir un texte, qui sera ensuite chiffré et déchiffré avec une clé AES générée aléatoirement.
 
@@ -32,8 +32,8 @@ Ce script permet de saisir un texte, qui sera ensuite chiffré et déchiffré av
 
 Pour exécuter l'exemple simple de chiffrement symétrique :
 
-`python'
-python chiffrageSymetrique.py
+python
+`python chiffrageSymetrique.py`
 
 Ce script permet de saisir un texte et de choisir de le chiffrer ou le déchiffrer en utilisant une clé numérique.
 
@@ -43,8 +43,8 @@ Ce script permet de saisir un texte et de choisir de le chiffrer ou le déchiffr
 
 Installez PyCryptodome via pip pour utiliser ces scripts :
 
-`bash'
-pip install pycryptodome
+bash
+`pip install pycryptodome`
 
 ## Licence
 
