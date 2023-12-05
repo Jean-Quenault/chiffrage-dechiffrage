@@ -1,15 +1,15 @@
-# input un texte, le print, créer une clé, faire deux méthodes crypter et decrypter avec deux parametres en entres, avec un menu pour crypter ou decrypter
+# input un texte, le print, créer une clé, faire deux méthodes chiffrer et déchiffrer avec deux parametres en entrées, avec un menu pour chiffer ou dechiffrer
 
 
 def get_input():
     return input("Entrez le texte à traiter: ")
 
 def crypter(texte, cle):
-    # Exemple simple de cryptage (à améliorer selon vos besoins)
+    # Exemple simple de chiffrage (à améliorer selon vos besoins)
     return "".join(chr(ord(char) + cle) for char in texte)
 
 def decrypter(texte, cle):
-    # Exemple simple de décryptage (à améliorer selon vos besoins)
+    # Exemple simple de déchiffrage (à améliorer selon vos besoins)
     return "".join(chr(ord(char) - cle) for char in texte)
 
 def main():
