@@ -1,47 +1,43 @@
-# Projet de chiffrement python
+# Python Encryption Project
 
-Ce projet comprend trois scripts Python pour démontrer différents types de chiffrement : asymétrique avec RSA, symétrique avec AES et un exemple simple de chiffrement symétrique.
+This project includes three Python scripts to demonstrate different types of encryption: asymmetric using RSA, symmetric with AES, and a simple example of symmetric encryption.
 
-## Fichiers
+## Files
 
-1. **chiffrageAsymetrique.py** : Utilise RSA pour le chiffrement et le déchiffrement asymétrique.
-2. **chiffrageSymetriqueAES.py** : Utilise AES pour le chiffrement et le déchiffrement symétrique.
-3. **chiffrageSymetrique.py** : Un exemple simple de chiffrement et déchiffrement symétrique.
+1. **chiffrageAsymetrique.py**: Uses RSA for asymmetric encryption and decryption.
+2. **chiffrageSymetriqueAES.py**: Uses AES for symmetric encryption and decryption.
+3. **chiffrageSymetrique.py**: A simple example of symmetric encryption and decryption.
 
-## Utilisation
+## Usage
 
-### 1. Chiffrement Asymétrique (RSA)
+### 1. Asymmetric Encryption (RSA)
 
-Pour utiliser le script de chiffrement asymétrique :
+To use the asymmetric encryption script:
 
 `python chiffrageAsymetrique.py`
 
-#### Cela générera une paire de clés RSA, chiffrera un message saisi par l'utilisateur et le déchiffrera ensuite.
+#### This will generate an RSA key pair, encrypt a user-entered message, and then decrypt it.
 
-### 2. Chiffrement Symétrique (AES)
+### 2. Symmetric Encryption (AES)
 
-Pour le script utilisant AES : 
+For the script using AES:
 
 `python chiffrageSymetriqueAES.py`
 
-Ce script permet de saisir un texte, qui sera ensuite chiffré et déchiffré avec une clé AES générée aléatoirement.
+This script allows entering text, which will then be encrypted and decrypted with a randomly generated AES key.
 
-### 3. Chiffrement Symétrique Simple
+### 3. Simple Symmetric Encryption
 
-Pour exécuter l'exemple simple de chiffrement symétrique :
+To run the simple symmetric encryption example:
 
 `python chiffrageSymetrique.py`
 
-Ce script permet de saisir un texte et de choisir de le chiffrer ou le déchiffrer en utilisant une clé numérique.
+This script allows entering text and choosing to encrypt or decrypt it using a numerical key.
 
-## Dépendances
+## Dependencies
 
 - PyCryptodome
 
-Installez PyCryptodome via pip pour utiliser ces scripts :
+Install PyCryptodome via pip to use these scripts:
 
 `pip install pycryptodome`
-
-## Licence
-
-Ce projet est privé.
